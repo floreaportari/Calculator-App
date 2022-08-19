@@ -9,6 +9,11 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 
+h1 {
+  text-align: center;
+  margin: 1em 0.5em;
+}
+
 .main-container {
   background-color: #535353;
   border-radius: 25px;
@@ -48,6 +53,12 @@ body {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 2px 10px inset rgba(30, 30, 30, 0.4);
+  transition: box-shadow ease-out 0.15s;
+}
+
+.tools-container button:active {
+  outline: none;
+  box-shadow: inset 0px 0px 7px #171717;
 }
 
 .tools-container button:first-child,
