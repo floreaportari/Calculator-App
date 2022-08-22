@@ -58,7 +58,7 @@ h1 {
 
 .tools-container button:active {
   outline: none;
-  box-shadow: inset 0px 0px 7px #171717;
+  box-shadow: inset 0px 0px 10px #171717;
 }
 
 .tools-container button:first-child,
@@ -69,4 +69,12 @@ h1 {
 .tools-container button:last-child {
   background-color: #fbb556;
   color: #fff;
+}
+
+.result-output {
+  text-align: right;
+  height: 100%;
+  width: 100%;
+  font-size: 2.1em;
+  padding: 0.4em 0.2em 0;
 }
