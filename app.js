@@ -1,6 +1,5 @@
 const numButtons = document.querySelectorAll(".num");
 const operandButtons = document.querySelectorAll(".operand");
-const screenContainer = document.querySelector(".screen-container");
 const resultOutputEl = document.querySelector(".result-output");
 const equalsBtn = document.querySelector(".equals");
 const clearBtn = document.querySelector(".clear");
