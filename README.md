@@ -2,6 +2,8 @@
 
 Calculator app for the Odin Project!
 
+Live site: https://floreaportari.github.io/Calculator-App/
+
 Tools used to build this project:
 
 HTML
