@@ -99,7 +99,8 @@ function calculate() {
 equalsBtn.addEventListener("click", (e) => {
   if (!currentNum || currentNum === "") return;
   calculate();
-  resultOutputEl.textContent = result.toFixed(2);
+
+  resultOutputEl.textContent = result;
 });
 
 clearBtn.addEventListener("click", () => {
